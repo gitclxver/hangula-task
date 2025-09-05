@@ -11,17 +11,17 @@ This project was built to fulfill the following goals:
 
 ### Scope Delivered:
 *   **Pages:** Home, Services, About, Contact.
-*   **Custom Post Type (CPT):** "Services" CPT, created with Custom Post Type UI.
-*   **Enhanced CPT:** Custom fields added to the Services CPT using Advanced Custom Fields (ACF) and displayed on the front-end.
-*   **Contact Form:** A working form built with Contact Form 7, featuring client and server-side validation.
+*   **Custom Post Type (CPT):** "Services" & "Projects" CPT, created with Custom Post Type UI.
+*   **Enhanced CPT:** Custom fields added to the Services CPT using Advanced Custom Fields (ACF)
+*   **Contact Form:** A working form built with Contact Form 7
 *   **Performance:** Optimized to target Lighthouse scores ≥ 85.
 *   **Security:** Implemented basic security hardening measures.
 
 ## 🛠️ Technical Stack
 
 *   **WordPress:** `6.7.x`
-*   **PHP:** `8.1+` (Recommended: 8.2)
-*   **MySQL:** `5.7+` or `MariaDB 10.4+`
+*   **PHP:** `8.1+` 
+*   **MySQL:** `5.7+`
 *   **Parent Theme:** Astra (`v4.9.x`)
 *   **Child Theme:** Custom (`astra-child`)
 
@@ -51,7 +51,57 @@ This project was built to fulfill the following goals:
     *   **Option A (Preferred - using AIOWM):** Use the "All-in-One WP Migration" plugin. Go to **All-in-One WP Migration > Import** and upload the provided `.wpress` file.
     *   **Option B (using WordPress Export):** Go to **Tools > Import**, install the "WordPress importer", and upload the provided `.xml` file. You will need to reassign the menu and re-configure a few settings afterwards.
 6.  **Update Permalinks:** Go to **Settings > Permalinks** and simply click "Save Changes" to flush rewrite rules and ensure CPT links work correctly.
-7.  **Optional - Caching:** For performance, install and configure a caching plugin like WP Super Cache or W3 Total Cache.
+
+
+# 📘 Importing a Database into XAMPP using a `.sql` File
+
+This guide explains how to create a database in **XAMPP** and import a `.sql` file using **phpMyAdmin**.
+
+---
+
+## 🚀 Prerequisites
+- [XAMPP](https://www.apachefriends.org/) installed on your system.
+- **Apache** and **MySQL** services running in the XAMPP Control Panel.
+- A `.sql` file (database dump/export).
+
+---
+
+## 📝 Steps
+
+### 1. Start XAMPP
+- Open **XAMPP Control Panel**.
+- Start **Apache** and **MySQL** modules.
+
+### 2. Open phpMyAdmin
+- Open your browser and go to:  
+http://localhost/phpmyadmin
+
+
+### 3. Create a New Database
+- Click on the **Databases** tab.
+- Enter a database name (e.g., `mydb`).
+- Click **Create**.
+
+### 4. Import the `.sql` File
+- In the left sidebar, select the database you just created.
+- Click the **Import** tab from the top menu.
+- Click **Choose File** and select your `.sql` file.
+- Leave other options as default.
+- Click **Go** to start the import.
+
+### 5. Verify Import
+- Once the import is complete, you will see a success message.
+- Your tables and data should now appear inside the database.
+
+---
+
+## ✅ Example
+1. Create a database named `hangula`.
+2. Import `hangula.sql` into it.
+3. Done! The `hangula` database is now available in phpMyAdmin.
+
+---
+
 
 ## 🏗️ Architecture & Trade-offs
 
