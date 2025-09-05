@@ -41,16 +41,17 @@ This project was built to fulfill the following goals:
 
 1.  **Environment:** Ensure your server meets the PHP and MySQL requirements.
 2.  **Install WordPress:** Perform a standard WordPress installation.
-3.  **Upload Theme and Plugins:**
+3.  **Install Astra Lighttheme.
+4.  **Upload Theme and Plugins:**
     *   Upload the provided `astra-child` folder to `/wp-content/themes/`.
     *   Upload all provided plugins to `/wp-content/plugins/`.
-4.  **Activate:**
+5.  **Activate:**
     *   In the WordPress Admin, go to **Appearance > Themes** and activate the **Astra Child** theme.
     *   Go to **Plugins**, activate all the plugins included in the deliverables.
-5.  **Import Content (Two Options):**
+6.  **Import Content (Two Options):**
     *   **Option A (Preferred - using AIOWM):** Use the "All-in-One WP Migration" plugin. Go to **All-in-One WP Migration > Import** and upload the provided `.wpress` file.
     *   **Option B (using WordPress Export):** Go to **Tools > Import**, install the "WordPress importer", and upload the provided `.xml` file. You will need to reassign the menu and re-configure a few settings afterwards.
-6.  **Update Permalinks:** Go to **Settings > Permalinks** and simply click "Save Changes" to flush rewrite rules and ensure CPT links work correctly.
+7.  **Update Permalinks:** Go to **Settings > Permalinks** and simply click "Save Changes" to flush rewrite rules and ensure CPT links work correctly.
 
 
 # 📘 Importing a Database into XAMPP using a `.sql` File
