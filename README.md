@@ -56,3 +56,5 @@ This project was built to fulfill the following goals:
 ## 🏗️ Architecture & Trade-offs
 
 ### Child Theme Structure (`astra-child`)
+
+![alt text](image.png)
