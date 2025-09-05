@@ -35,7 +35,7 @@ This project was built to fulfill the following goals:
 | **Kadence Blocks** | Enhanced the Gutenberg editor for building inner pages. | Active |
 | **Stop User Enumeration** | Basic security: blocked user enumeration attacks. | Active |
 | **Title Remover** | Allowed selective hiding of page titles for design purposes. | Active |
-| *(Caching Plugin)* | *(e.g., WP Super Cache) - Used for performance but not in repo.* | |
+| **Caching Plugin** |  WP Super Cache - Used for performance but not in repo.* | Active |
 
 ## ⚙️ Setup & Installation
 
