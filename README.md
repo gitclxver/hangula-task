@@ -57,4 +57,5 @@ This project was built to fulfill the following goals:
 
 ### Child Theme Structure (`astra-child`)
 
+###Lighthouse Score
 ![alt text](image.png)
